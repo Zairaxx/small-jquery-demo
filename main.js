@@ -19,10 +19,10 @@
 
 let div = jQuery(".container")
 
-$(".btn").on("click", () => {
-    $("#picture").fadeIn(3000);
-    div.toggleClass("blue");
-})
+// $(".btn").on("click", () => {
+//     $("#picture").fadeIn(3000);
+//     div.toggleClass("blue");
+// })
 
 $(".btn").on("click", () => {
     $("#picture").toggle(3000);
